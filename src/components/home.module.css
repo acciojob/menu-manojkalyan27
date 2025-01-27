@@ -1,0 +1,37 @@
+.card{
+    display: flex;
+    width: 580px;
+    margin: 10px;
+    margin-top: 50px;
+    gap: 15px;
+    padding-left: 90px;
+}
+
+.allcards{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.title{
+    letter-spacing: 2px;
+}
+.details{
+    display: flex;
+    flex-direction:column;
+    gap: 70px;
+}
+
+.details > p{
+    color: #6780A3;
+}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+img{
+    border: 2px solid #C59D5F;
+}
